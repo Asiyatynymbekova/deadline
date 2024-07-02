@@ -1,15 +1,15 @@
 import { useState } from 'react'
- import bycicle from  '../src/assets/bycicle.svg'
- import background from '../src/assets/background.svg'
+import bycicle from  '../src/assets/bycicle.svg'
+import background from '../src/assets/background.svg'
 import ocean from '../src/assets/ocean.svg'
 
 
  function App() {
-  const [click,setClick] = useState(false);
+  const [click,setClick] = useState(false)
   function onHandleClick(){
     setClick(! click)
   }
-  const [backdrop,setBackdrop] = useState(background);
+  const [backdrop,setBackdrop] = useState(background)
   return(
 <>
 <div className='flex justify-center'>
@@ -31,6 +31,6 @@ import ocean from '../src/assets/ocean.svg'
     </>
   )
  }
- export default App
+ export default App;
 
  
