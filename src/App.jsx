@@ -11,7 +11,6 @@ import ocean from '../src/assets/ocean.svg'
   }
   const [backdrop,setBackdrop] = useState(background);
   return(
-
 <>
 <div className='flex justify-center'>
   <div className='w-full justify-center'>
